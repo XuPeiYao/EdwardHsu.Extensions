@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Solution", "00_Solution", "{A176DAC6-2E11-4169-A041-9A9B97F021EC}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README = ..\README
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Libraries", "01_Libraries", "{CB319A53-3EF9-4C78-B7FA-0A23D8B2AE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Extensions.Configuration.Redis", "EdwardHsu.Extensions.Configuration.Redis\EdwardHsu.Extensions.Configuration.Redis.csproj", "{64037078-3A9C-4F5E-A3C3-C03B1DEEEE65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Tests", "02_Tests", "{4F047A79-6FDD-46AF-89A1-8C32A38A100E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Extensions.Configuration.Redis.StackExchange", "EdwardHsu.Extensions.Configuration.Redis.StackExchange\EdwardHsu.Extensions.Configuration.Redis.StackExchange.csproj", "{0D65250C-EE5C-44E9-982B-23F876D6C2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Extensions.Configuration.Redis.StackExchange.Tests", "EdwardHsu.Extensions.Configuration.Redis.StackExchange.Tests\EdwardHsu.Extensions.Configuration.Redis.StackExchange.Tests.csproj", "{AEBAEB4B-0ECC-4FA8-9149-BDF185CA175D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64037078-3A9C-4F5E-A3C3-C03B1DEEEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64037078-3A9C-4F5E-A3C3-C03B1DEEEE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64037078-3A9C-4F5E-A3C3-C03B1DEEEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64037078-3A9C-4F5E-A3C3-C03B1DEEEE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D65250C-EE5C-44E9-982B-23F876D6C2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D65250C-EE5C-44E9-982B-23F876D6C2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D65250C-EE5C-44E9-982B-23F876D6C2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D65250C-EE5C-44E9-982B-23F876D6C2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBAEB4B-0ECC-4FA8-9149-BDF185CA175D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBAEB4B-0ECC-4FA8-9149-BDF185CA175D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBAEB4B-0ECC-4FA8-9149-BDF185CA175D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBAEB4B-0ECC-4FA8-9149-BDF185CA175D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64037078-3A9C-4F5E-A3C3-C03B1DEEEE65} = {CB319A53-3EF9-4C78-B7FA-0A23D8B2AE46}
+		{0D65250C-EE5C-44E9-982B-23F876D6C2B7} = {CB319A53-3EF9-4C78-B7FA-0A23D8B2AE46}
+		{AEBAEB4B-0ECC-4FA8-9149-BDF185CA175D} = {4F047A79-6FDD-46AF-89A1-8C32A38A100E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9310AE0C-5D95-4033-9896-92755E6F9EDD}
+	EndGlobalSection
+EndGlobal
